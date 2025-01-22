@@ -19,9 +19,7 @@ const Home = () => {
         Software Developer
         </h3>
       <p className='max-w-[500px] text-sm text-gray-500'>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      Placeat, vero. Temporibus ratione iure earum reprehenderit!
-      Dolores blanditiis quia debitis quidem.
+      Passionate about crafting efficient, scalable, and user-friendly solutions using Java, Spring Boot, and MySQL, with hands-on experience in backend development, RESTful APIs, and system design. Always eager to learn, solve complex problems, and contribute to impactful projects.
       </p>
      </div>
 
