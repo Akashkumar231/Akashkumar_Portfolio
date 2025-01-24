@@ -25,21 +25,50 @@ const Home = () => {
 
      <div className="flex gap-3">
 
-         <BiLogoGithub className='h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
-         text-white transition-all duration-200 
-         hover:scale-110 hover:border-teal-600 
-         hover:bg-white hover:text-teal-600 
-         md:h-12 md:w-12'/>
-         <BiLogoLinkedin className='h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
-         text-white transition-all duration-200 
-         hover:scale-110 hover:border-teal-600 
-         hover:bg-white hover:text-teal-600 
-         md:h-12 md:w-12'/>
-         <SiLeetcode className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
-        text-white transition-all duration-200 
-        hover:scale-110 hover:border-teal-600 
-        hover:bg-white hover:text-teal-600 
-        md:h-12 md:w-12" />
+     <a 
+  href="https://github.com/Akashkumar231" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <BiLogoGithub 
+    className='h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
+    text-white transition-all duration-200 
+    hover:scale-110 hover:border-teal-600 
+    hover:bg-white hover:text-teal-600 
+    md:h-12 md:w-12'
+  />
+</a>
+
+<a 
+  href="https://www.linkedin.com/in/akashkumaryadav1/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <BiLogoLinkedin 
+    className='h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
+    text-white transition-all duration-200 
+    hover:scale-110 hover:border-teal-600 
+    hover:bg-white hover:text-teal-600 
+    md:h-12 md:w-12'
+  />
+</a>
+
+<a 
+  href="https://leetcode.com/u/Akashkumar_Yadav/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <SiLeetcode 
+    className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
+    text-white transition-all duration-200 
+    hover:scale-110 hover:border-teal-600 
+    hover:bg-white hover:text-teal-600 
+    md:h-12 md:w-12"
+  />
+</a>
+
+
+
         <BiLogoTwitter className='h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-teal-600 p-2
          text-white transition-all duration-200 
          hover:scale-110 hover:border-teal-600 
