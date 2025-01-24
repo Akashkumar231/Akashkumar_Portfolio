@@ -12,30 +12,24 @@ const Projects = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 
       xl:grid-cols-3 gap-5">
 
-        <div className="text-left space-y-2 border-2
-        hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10
-        border-teal-500 rounded-lg hover:bg-teal-50
-        ">
-         <h1 className='text-3xl font-semibold'>Project</h1>
-         <h3 className='text-xl text-gray-700'>Tech Stack</h3>
-         <p className='text-sm text-gray-600'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing 
-          elit. Voluptate inventore quasi neque exercitationem 
-          labore rem sunt praesentium sapiente temporibus quis!
-         </p>
-        </div>
-        <div className="text-left space-y-2 border-2
-        hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10
-        border-teal-500 rounded-lg hover:bg-teal-50
-        ">
-         <h1 className='text-3xl font-semibold'>Project</h1>
-         <h3 className='text-xl text-gray-700'>Tech Stack</h3>
-         <p className='text-sm text-gray-600'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing 
-          elit. Voluptate inventore quasi neque exercitationem 
-          labore rem sunt praesentium sapiente temporibus quis!
-         </p>
-        </div>
+<div
+  onClick={() => window.open("https://github.com/Akashkumar231/ATM-Management-System-Project-in-Java/tree/master", "_blank")}
+  className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-teal-500 rounded-lg hover:bg-teal-50"
+>
+  <h1 className="text-3xl font-semibold">ATM Management System</h1>
+  <h3 className="text-xl text-gray-700">Tech Stack</h3>
+  <p className="text-sm text-gray-600">
+    Java (Swing, AWT), MySQL, and NetBeans IDE.
+  </p>
+  <h3 className="text-xl text-gray-700">Key Features</h3>
+  <p className="text-sm text-gray-600">
+    User authentication, balance inquiry, cash withdrawal, deposit, and transaction history.
+  </p>
+  <p className="text-sm text-teal-600 font-medium">View Project on GitHub</p>
+</div>
+
+
+
         <div className="text-left space-y-2 border-2
         hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10
         border-teal-500 rounded-lg hover:bg-teal-50
@@ -61,6 +55,7 @@ const Projects = () => {
           labore rem sunt praesentium sapiente temporibus quis!
          </p>
         </div>
+
         <div className="text-left space-y-2 border-2
         hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10
         border-teal-500 rounded-lg hover:bg-teal-50
@@ -72,7 +67,22 @@ const Projects = () => {
           elit. Voluptate inventore quasi neque exercitationem 
           labore rem sunt praesentium sapiente temporibus quis!
          </p>
-        </div><div className="text-left space-y-2 border-2
+        </div>
+
+        <div className="text-left space-y-2 border-2
+        hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10
+        border-teal-500 rounded-lg hover:bg-teal-50
+        ">
+         <h1 className='text-3xl font-semibold'>Project</h1>
+         <h3 className='text-xl text-gray-700'>Tech Stack</h3>
+         <p className='text-sm text-gray-600'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing 
+          elit. Voluptate inventore quasi neque exercitationem 
+          labore rem sunt praesentium sapiente temporibus quis!
+         </p>
+        </div>
+        
+        <div className="text-left space-y-2 border-2
         hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10
         border-teal-500 rounded-lg hover:bg-teal-50
         ">
