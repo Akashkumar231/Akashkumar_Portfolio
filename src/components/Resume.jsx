@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const Resume = () => {
   return (
     <div id='contact' className='flex min-h-screen
     w-full flex-col items-center justify-center
@@ -12,4 +12,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Resume
